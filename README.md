@@ -5,7 +5,8 @@ This is a full‑stack Java-based blogging application built with Jenkins, Docke
 
 ---
 ## **Architecture Diagram**
-<img width="1025" height="683" alt="image" src="https://github.com/user-attachments/assets/703a5a70-a5e2-4cf7-8495-8b6596df65b1" />
+<img width="1025" height="683" alt="image" src="https://github.com/user-attachments/assets/ea547b40-66f2-445e-acf1-abd9e4db37cb" />
+
 
 ---
 ##🏗️ **Architecture Overview**
