@@ -1,7 +1,9 @@
 ##📘 **FullStack Blogging App – CI/CD**
 
 
-This is a full‑stack Java-based blogging application built with Jenkins, Docker, Terraform, and Kubernetes is a DevOps automation workflow. It allows users to create, edit, delete, and publish blog posts with authentication and role‑based access. The project is containerized using Docker automated with kubernetes and deployed using jenkins CI/CD pipelines.
+This full‑stack, Java-based blogging application uses Jenkins, Docker, Terraform, and Kubernetes for DevOps automation.
+It allows users to create, edit, delete, and publish blog posts with authentication and role‑based access. 
+The project is containerized with Docker, orchestrated by Kubernetes, and deployed via Jenkins CI/CD pipelines.
 
 ---
 ## **Architecture Diagram**
@@ -9,7 +11,7 @@ This is a full‑stack Java-based blogging application built with Jenkins, Docke
 
 
 ---
-##🏗️ **Architecture Overview**
+## 🏗️**Architecture Overview**
 ```
 bash-scripts
 │install_jenkins.sh
@@ -33,7 +35,7 @@ src
 README.md
 ```
 ---
-##🛠️ **Prerequisites and tools used**
+## 🛠️**Prerequisites and tools used**
 - **ec2 - Ubuntu 24.04 LTS 
 - **Java 21 (OpenJDK)
 - **Jenkins - CI/CD Continuous Integration and Continuous Deployment)
@@ -45,7 +47,7 @@ README.md
 - **Custom ports: 2000-11000 required for Jenkins jobs & monitoring tools
 ---
 
-##🌐 Executions
+## 🌐**Executions Steps**
 
 1. **GitHub Integration**:
     - Developer pushes the code to a GitHub repo that has the source code for the application and the Terraform code that will build the EKS cluster.
