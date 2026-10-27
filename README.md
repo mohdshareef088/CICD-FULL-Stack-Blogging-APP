@@ -65,7 +65,7 @@ README.md
    - Jenkins builds a Docker image for the application.
    - The image is tagged and scanned again by Trivy to check and pushed to Docker Hub.
 8. **Kubernetes Deployment**:
-   - The Docker image is pushed to the Kubernetes cluster, and the app is deployed to an EKS cluster.
+   - The Docker image is pushed to the Kubernetes cluster (add to secret text) to get access to the Docker Hub image, and the app is deployed to an EKS cluster.
    - Terraform is used to build EKS; Kubernetes handles scaling and service management.
    - Kubernetes provides the ALB URL to get access to the custom URL GoDaddy provides to map the domain 
 9. **Monitoring**:
@@ -158,8 +158,12 @@ README.md
       }
      }
 
+##🧪 **Screenshots**
+
 <img width="1580" height="734" alt="image" src="https://github.com/user-attachments/assets/2c133e4f-dd7a-490a-a72d-4807f03a0631" />
+
 <img width="1355" height="495" alt="image" src="https://github.com/user-attachments/assets/d0ad76ca-b533-4fa7-8fd4-db86ae2bf99e" />
+
 <img width="1859" height="636" alt="image" src="https://github.com/user-attachments/assets/70c24df2-47e2-4270-a0ba-50d2709d21f5" />
 
 ---
