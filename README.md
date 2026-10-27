@@ -34,38 +34,41 @@ README.md
 ```
 ---
 ##🛠️ **Prerequisites and tools used**
-- **Ubuntu 24.04 LTS 
+- **ec2 - Ubuntu 24.04 LTS 
 - **Java 21 (OpenJDK)
 - **Jenkins - CI/CD Continuous Integration and Continuous Deployment)
 - **SonarQube - Docker container (Static code analysis for quality and security checks)
 - **Nexus-Artifactory - Docker container (Artifact repository manager)
 - **Docker: Containerization of the application.
 - **Kubernetes (EKS): Orchestration of containerized applications.
-- **Monitoring & Observability- Grafana, Prometheus (application performance), Blackbox for availability and uptime.
-- **Custom ports- 2000-11000 required for Jenkins jobs & monitoring tools
+- **Monitoring & Observability: Grafana, Prometheus (application performance), Blackbox for availability and uptime.
+- **Custom ports: 2000-11000 required for Jenkins jobs & monitoring tools
 ---
 
 ##🌐 Executions
 
 1. **GitHub Integration**:
-    - Jenkins pulls the latest changes from the GitHub repository and triggers
-2. **Jenkins Manage**:
-    - Adding tools token,urls,credentials(git,sonar,maven,docker) to Jenkins Manage (systems/tools) to trigger continuous integration 
+    - Developer pushes the code to a GitHub repo that has the source code for the application and the Terraform code that will build the EKS cluster.
+    - Code is pushed to the Jenkins pipeline to perform compilation of the source code and check syntax-based errors in the pipeline,and goes to test cases to test the code. 
+3. **Jenkins Manage**:
+    - Setting up required servers like Jenkins, SonarQube, Nexus, and monitoring tools
+    - Configuring and adding tools, tokens, URLs, and credentials (Git, Sonar, Maven, Docker) to Jenkins Manage (systems/tools) to trigger continuous integration
+   **Code Quality Scan**:
+   - Code is pushed to Trivy for vulnerabilities.
+   - Code analysis & code quality check is done using SonarQube.
 4. **Maven Build & Test**:
-   - The code is compiled and built using Maven into a .jar file
-5. **Code Quality Scan**:
-   - Code analysis is done using SonarQube.
-   - Trivy scans for vulnerabilities.
+   - Maven is used to build the code and compile it  into an executable .jar file
 6. **Docker & Nexus**:
+   - The Nexus repo is used to store artifacts.
    - Jenkins builds a Docker image for the application.
-   - The image is tagged and pushed to DockerHub.
-   - Artifacts are pushed to Nexus.
-7. **Kubernetes Deployment**:
-   - The app is deployed to an EKS cluster.
-   - Kubernetes handles scaling and service management.
-8. **Monitoring**:
-   - Prometheus scrapes metrics from the Blackbox Exporter.
-   - Grafana visualizes application uptime, health, and other critical metrics.
+   - The image is tagged and scanned again by Trivy to check and pushed to Docker Hub.
+8. **Kubernetes Deployment**:
+   - The Docker image is pushed to the Kubernetes cluster, and the app is deployed to an EKS cluster.
+   - Terraform is used to build EKS; Kubernetes handles scaling and service management.
+   - Kubernetes provides the ALB URL to get access to the custom URL GoDaddy provides to map the domain 
+9. **Monitoring**:
+   - To monitor the web application metrics, the Blackbox Exporter is used and forwarded to Prometheus.
+   - Grafana UI visualizes application uptime, health, and other critical metrics.
 
 ---
 ## 🚀**Application Build & Deploy to Dockerhub**
