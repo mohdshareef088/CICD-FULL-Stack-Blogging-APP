@@ -52,10 +52,10 @@ README.md
 1. **GitHub Integration**:
     - Developer pushes the code to a GitHub repo that has the source code for the application and the Terraform code that will build the EKS cluster.
     - Code is pushed to the Jenkins pipeline to perform compilation of the source code and check syntax-based errors in the pipeline,and goes to test cases to test the code. 
-3. **Jenkins Manage**:
+2. **Jenkins Manage**:
     - Setting up required servers like Jenkins, SonarQube, Nexus, and monitoring tools
     - Jenkins management to Configure and add tools, tokens, URLs, and credentials (Git, Sonar, Maven, Docker) to (systems/tools) to trigger continuous integration
-   **Trivy & Sonarqube Code Scan**:
+3. **Trivy & Sonarqube Code Scan**:
    - Code is pushed to Trivy for vulnerabilities.
    - Code analysis & code quality check is done using SonarQube.
 4. **Maven Build & Test**:
