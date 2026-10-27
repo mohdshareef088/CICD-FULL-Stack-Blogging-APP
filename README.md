@@ -160,11 +160,11 @@ README.md
 
 ##🧪 **Screenshots**
 
-<img width="1580" height="734" alt="image" src="https://github.com/user-attachments/assets/2c133e4f-dd7a-490a-a72d-4807f03a0631" />
+ <img width="1580" height="734" alt="image" src="https://github.com/user-attachments/assets/2c133e4f-dd7a-490a-a72d-4807f03a0631" />
 
-<img width="1355" height="495" alt="image" src="https://github.com/user-attachments/assets/d0ad76ca-b533-4fa7-8fd4-db86ae2bf99e" />
+ <img width="1355" height="495" alt="image" src="https://github.com/user-attachments/assets/d0ad76ca-b533-4fa7-8fd4-db86ae2bf99e" />
 
-<img width="1859" height="636" alt="image" src="https://github.com/user-attachments/assets/70c24df2-47e2-4270-a0ba-50d2709d21f5" />
+ <img width="1859" height="636" alt="image" src="https://github.com/user-attachments/assets/70c24df2-47e2-4270-a0ba-50d2709d21f5" />
 
 ---
 ## 🚀 **kubernetes deploy**
