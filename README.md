@@ -54,8 +54,8 @@ README.md
     - Code is pushed to the Jenkins pipeline to perform compilation of the source code and check syntax-based errors in the pipeline,and goes to test cases to test the code. 
 3. **Jenkins Manage**:
     - Setting up required servers like Jenkins, SonarQube, Nexus, and monitoring tools
-    - Configuring and adding tools, tokens, URLs, and credentials (Git, Sonar, Maven, Docker) to Jenkins Manage (systems/tools) to trigger continuous integration
-   **Code Quality Scan**:
+    - Jenkins management to Configure and add tools, tokens, URLs, and credentials (Git, Sonar, Maven, Docker) to (systems/tools) to trigger continuous integration
+   **Trivy & Sonarqube Code Scan**:
    - Code is pushed to Trivy for vulnerabilities.
    - Code analysis & code quality check is done using SonarQube.
 4. **Maven Build & Test**:
