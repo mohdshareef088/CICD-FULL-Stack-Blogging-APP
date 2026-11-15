@@ -159,9 +159,11 @@ README.md
      }
 
 ##🧪 **Screenshots**
- <img width="1580" height="734" alt="image" src="https://github.com/user-attachments/assets/2c133e4f-dd7a-490a-a72d-4807f03a0631" />
- <img width="1355" height="495" alt="image" src="https://github.com/user-attachments/assets/d0ad76ca-b533-4fa7-8fd4-db86ae2bf99e" />
- <img width="1859" height="636" alt="image" src="https://github.com/user-attachments/assets/70c24df2-47e2-4270-a0ba-50d2709d21f5" />
+<img width="1705" height="816" alt="image" src="https://github.com/user-attachments/assets/67a0a0f3-86dc-47b2-848f-42859812c38b" />
+<img width="1388" height="450" alt="image" src="https://github.com/user-attachments/assets/be6245ba-4635-49f2-8512-01fb05c6e048" />
+<img width="1339" height="461" alt="image" src="https://github.com/user-attachments/assets/94408e39-8f27-4772-bc72-5ad634e646a4" />
+<img width="1873" height="801" alt="image" src="https://github.com/user-attachments/assets/aa24ccef-a6c5-4811-940f-acdad820d598" />
+
 
 ---
 ## 🚀 **kubernetes deploy**
