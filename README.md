@@ -7,16 +7,13 @@ The project is containerized with Docker, orchestrated by Kubernetes, and deploy
 
 ---
 ## **Architecture Diagram**
-<img width="1025" height="683" alt="image" src="https://github.com/user-attachments/assets/ea547b40-66f2-445e-acf1-abd9e4db37cb" />
 
+<img width="2556" height="1722" alt="image" src="https://github.com/user-attachments/assets/770b3330-2a9e-4d6f-94aa-45dbf84a6d1f" />
 
 ---
 ## 🏗️**Architecture Overview**
 ```
-bash-scripts
-│install_jenkins.sh
-│install_docker.sh
-│install_blackbox.sh
+yaml
 │prometheus.yml
 │grafana_dashboard.json
 kubernetes
