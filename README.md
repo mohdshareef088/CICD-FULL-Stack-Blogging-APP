@@ -178,33 +178,23 @@ README.md
 - **pods -- to get the load balancer url to access the application
 
 
-<img width="1656" height="433" alt="image" src="https://github.com/user-attachments/assets/c5f2dc5e-5ab7-40f8-ae12-be647f96b98b" />
-
-<img width="886" height="137" alt="image" src="https://github.com/user-attachments/assets/eab0f02b-58e7-44ee-add5-0895c5280b1c" />
-
-Add to secret text
-<img width="716" height="422" alt="image" src="https://github.com/user-attachments/assets/9accf298-48fb-474b-8efe-af69d3483bae" />
-
-<img width="1897" height="725" alt="image" src="https://github.com/user-attachments/assets/8bc0c261-d060-4cfb-bc9f-b79c70f8af6b" />
-
-<img width="1881" height="802" alt="image" src="https://github.com/user-attachments/assets/e6e8c3a4-a9f2-45d3-baaf-5bf5c51975fa" />
-To authenticate roles is working should return yes
-<img width="950" height="180" alt="image" src="https://github.com/user-attachments/assets/2f5de54d-f04f-4493-b974-5d8ff44fb87c" />
-
-<img width="1171" height="163" alt="image" src="https://github.com/user-attachments/assets/1b1a9478-b34a-46dc-9440-24ee1a591687" />
+<img width="1881" height="802" alt="image" src="https://github.com/user-attachments/assets/98626aa9-e73d-4a06-a088-942a13340970" />
 
 ---
 
-##🧪 **Screenshots**
+##🧪 **Application Screenshots**
 ---
 - Homepage  Dashboard 
-<img width="1908" height="970" alt="image" src="https://github.com/user-attachments/assets/e9962fb3-5ba8-474e-b71a-5885b93d2e2b" />
+<img width="1908" height="970" alt="image" src="https://github.com/user-attachments/assets/4ee9c676-97d4-4996-9b7c-5b04a17bed29" />
+
 
 - registration page
-<img width="464" height="561" alt="image" src="https://github.com/user-attachments/assets/38d7ac0b-e2d2-42f0-b02e-2f84d38aa568" />
+<img width="464" height="561" alt="image" src="https://github.com/user-attachments/assets/5de57ad0-c471-49f7-86eb-f541575de4d4" />
+
 
 - Create blog page 
-<img width="1888" height="787" alt="image" src="https://github.com/user-attachments/assets/8b37a1c2-a22b-4226-bfba-3e749a233d90" />
+<img width="1888" height="787" alt="image" src="https://github.com/user-attachments/assets/4a6943d4-aa89-4dbb-901a-089d2227e2a9" />
+
 ---
 
 ##🏁 **Observibility**
@@ -216,11 +206,11 @@ To authenticate roles is working should return yes
 
 ##🧪 **Screenshots**
 ---
+<img width="1858" height="589" alt="image" src="https://github.com/user-attachments/assets/85d20049-93b6-4f2b-9ab7-4a536910b0a9" />
 
-<img width="1858" height="589" alt="image" src="https://github.com/user-attachments/assets/908607ee-a526-4b71-81f1-61c423ce0b73" />
-<img width="1888" height="938" alt="image" src="https://github.com/user-attachments/assets/acfaaff2-8e71-4a90-ae80-6eb6c744dcac" />
-<img width="1107" height="768" alt="image" src="https://github.com/user-attachments/assets/1370dc31-861a-4c03-bb32-07ed25001696" />
-<img width="1888" height="938" alt="image" src="https://github.com/user-attachments/assets/bb1788ab-351e-4f89-aae2-cee3737f4937" />
+
+<img width="1888" height="938" alt="image" src="https://github.com/user-attachments/assets/328c9a73-f0f5-40ed-b136-068b0de8c096" />
+
 
 
 
